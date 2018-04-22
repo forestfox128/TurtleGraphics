@@ -1,0 +1,66 @@
+    *{box-sizing: border-box;}
+    body{background: #595959;}
+    .container{
+        width:100%;
+        max-width:1600px;
+        margin: auto;
+        padding: 1em;
+    }
+    .container:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+	input{
+		border: 1px solid #000;
+		font-size:1.5em;
+		width: 15em;
+		height: 5em;
+    }
+
+    #gc{
+        border: 1px solid gray;
+        background:#f7ffe6;
+    }
+    [class*='col-']{
+        float: left;
+        text-align: center;
+        
+    }
+
+    .col-2-6 {width: 69%;}
+    .col-3-6 {width: 30%;
+    margin-left:1%;}
+    
+    
+    [class*='col-']:last-of-type {
+        margin-right:0%;
+    }
+
+    #command{
+        text-align: left;
+        border: 1px solid black;
+        margin:0;
+        margin-top:1%;
+        padding: 1em;
+        background: #d5ff80;
+        font-size: 1.2em;
+    }
+    #console{
+        width:100%;
+        height: 2em;
+    }
+    [class*='part']{
+        text-align: left;
+        border: 1px solid black;
+        margin:1%;
+        margin-top:0;
+        padding: 1em;
+        background: #d5ff80;
+        font-size: 1.3em;
+    }
+
+    canvas{
+        width: 100%;
+        height: 30em;
+    }

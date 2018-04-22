@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl"> 
+<head>
+    <meta charset="utf-8">
+    <title>Turtle graphics</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/turtleStyle.css">
+    
+</head>
+
+<body>
+<div class="container">
+        <div class="row">
+        <div class="col-2-6">  
+            <img id="turtle" src="img/turtle.png"/> 
+            <canvas id="gc" width="970" height="480">Your browser does not support!</canvas>
+            <br><br>
+    <div id="command">
+        <h2>Command line: </h2>
+        <input type="text" id="console">
+    </div>
+        </div>
+        <div class="col-3-6">
+            <div class="part1">
+                <h2>Possible commands:</h2>
+                <ul>
+                    <li>forward 'x'</li>
+                    <li>goto 'x' 'y'</li>
+                    <li>left 'deg'</li>
+                    <li>right 'deg'</li>
+                    <li id="colorV">color 'value'</li>
+                    <li id = "on">on &#x22B2;-</li>
+                    <li id = "off">off</li>
+                    <li>clear</li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+</div>
+<script src="js/moves.js"></script> 
+</body>
+</html>
